@@ -190,3 +190,7 @@
     width: 3.5rem;
     margin: 0px;
   }
+
+input {
+    border: solid rgb(194, 194, 194) 1px;
+  }
