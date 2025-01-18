@@ -1,23 +1,18 @@
 :root {
   --gutter: 20px;
   --c-primary: #000000;
-  
 }
 
-header {
-  display: flex;
-  justify-content: center;
-}
 
 * {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'roboto', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 500;
 }
 
 body {
   background: #fff;
   color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, Helvetica, sans-serif;
   padding: 5rem;
 }
 h1{
@@ -44,119 +39,8 @@ i {
   font-size: 1.5rem;
 }
 
-
-.viewport {
-  width: 320px;
-  height: 650px;
-  max-width: 95vw;
-  box-shadow: 0 0 5rem rgba(0, 0, 0, 0.3);
-  border-radius: 30px;
-  position: absolute;
-  top: 5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--c-primary);
-  overflow: hidden;
-}
-
-header {
-  color: #fafafa;
-  display: flex;
-  align-items: center;
-  width: calc(100% - var(--gutter));
-  padding: 0 calc(var(--gutter) / 2);
-}
-
-footer {
-  width: calc(100% - var(--gutter) * 2);
-  background: var(--c-primary);
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-  padding: var(--gutter);
-  border-radius: 1.5rem;
-  box-shadow: 0 -0.3rem 1rem rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.app {
-  padding: var(--gutter) 0;
-  display: grid;
-  grid-gap: var(--gutter) 0;
-  grid-template-columns: var(--gutter) 1fr var(--gutter);
-  align-content: start;
-  width: 320px;
-  
-}
-.viewport {
-  overflow: visible;
-}
-.app--body {
-  position: absolute;
-  top: 9rem;
-  bottom: 0;
-  width: 100%;
-  background: #fff;
-  border-radius: 1.5rem 1.5rem 0 0;
-  box-shadow: 0 -0.5rem 1.5rem rgba(0, 0, 0, 0.17);
-  padding: var(--gutter);
-  box-sizing: border-box;
-  overflow-y: auto; 
-  margin: 0;
-}
-
-.app--body no-scrollbar {
-  width: 100%;
-}
-
-.app--body > * {
-  width: 100%; 
-  max-width: 100%;
-  margin: 0 auto; 
-}
-
-.app > * {
-  grid-column: 1/-1;
-}
-
-
-.hs {
-  position: absolute;
-  top: 5.1rem; 
-  display: flex;
-  justify-content: center;
-  z-index: 1;
-  display: flex;
-  transform: translateX(-50%);
-  left: 50%;
-}
-
-.hs, .vs {
-  width: 80%; 
-  background: #fff;
-  padding: 0.7rem;
-  border-radius: 1.2rem;
-  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.17);
-}
-
 .vs {
-  position: relative; 
-  width: 70%;
-  top: 3.5rem;
-  padding-bottom: 1rem;
-  padding-left: 0px;
-  padding-right: 0px;
-  text-align: center;
-  color: #000000;
-  transform: translateX(-50%);
-  left: 50%;
-}
-
-#logo {
-  width: 3.5rem;
-  margin: 0px;
+  top: 3rem;
 }
 
 ul {
@@ -170,7 +54,7 @@ ul {
   color: white;
   border: none;
   border-radius: 1.9rem;
-  padding: 1rem;
+  padding: 0.6rem 2rem;
   margin-top: 0.2rem;
   margin-bottom: 0.2rem;
   font-weight: 800;
@@ -188,58 +72,8 @@ ul {
   width: 80%;
 }
 
-header {
-  color: #fafafa;
-  display: flex;
-  align-items: center;
-  width: calc(100% - var(--gutter));
-  padding: 0 calc(var(--gutter) / 2);
-}
 
-footer {
-  width: calc(100% - var(--gutter) * 2);
-  background: var(--c-primary);
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-  padding: var(--gutter);
-  border-radius: 1.5rem;
-  box-shadow: 0 -0.3rem 1rem rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
 
-.viewport {
-  overflow: visible; 
-}
-.app--body {
-  position: absolute;
-  top: 9rem;
-  bottom: 0;
-  width: 100%;
-  background: #fff;
-  border-radius: 1.5rem 1.5rem 0 0;
-  box-shadow: 0 -0.5rem 1.5rem rgba(0, 0, 0, 0.17);
-  padding: var(--gutter);
-  box-sizing: border-box; 
-  overflow-y: auto; 
-  margin: 0; 
-}
-
-.app--body no-scrollbar {
-  width: 100%;
-}
-
-.app--body > * {
-  width: 100%; 
-  max-width: 100%;
-  margin: 0 auto; 
-}
-
-.app > * {
-  grid-column: 1/-1;
-}
 
 label {
   font-weight: 600;
@@ -410,20 +244,5 @@ input {
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.17);
 }
 
-footer a {
-  color: white; 
-  text-decoration: none; 
-  transition: color 0.3s ease; 
-}
 
-footer a:hover {
-  color: #f0f0f0; 
-}
 
-footer a.active {
-  color: #f0f0f0; 
-}
-
-button:hover {
-  cursor: pointer;
-}
