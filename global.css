@@ -2,6 +2,14 @@
     --gutter: 20px;
     --c-primary: #000000;
   }
+
+ html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    touch-action: none; 
+    height: 100%; 
+  }
   
   
   * {
@@ -15,6 +23,7 @@
     font-family: Roboto, Helvetica, sans-serif;
     padding: 5rem;
   }
+
   h1{
     font-size: 2rem;
     padding: 0px;
@@ -22,6 +31,7 @@
     font-weight: 900;
     margin-right: 0.4rem;
   }
+
   h2 {
     margin: 0px;
     padding: 0px;
