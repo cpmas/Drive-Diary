@@ -40,7 +40,17 @@ i {
 }
 
 .vs {
-  top: 3.6rem;
+
+  position: relative; 
+  padding-bottom: 1rem;
+  text-align: center;
+  color: #000000;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin: 0px;
+  top: calc(4rem + var(--hs-height, 0px));
+  transform: translateX(-50%);
+    left: 50%;
 }
 
 ul {
@@ -162,6 +172,7 @@ textarea {
   font-weight: 800;
   margin-bottom: 0rem;
   margin-top: 0.5rem;
+  font-size: 1.2rem;
 }
 
 #logo {
@@ -237,6 +248,10 @@ label {
 #date-container {
   width: 100%;
 }
+
+
+
+
 
 
 
