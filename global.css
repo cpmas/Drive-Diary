@@ -170,19 +170,10 @@
     padding: 0.7rem;
     border-radius: 1.2rem;
     box-shadow: 0 0 3rem rgba(0, 0, 0, 0.17);
+    margin: 0px;
   }
   
-  .vs {
-    max-width: 92%;
-    width: 87%;
-    position: relative; 
-    padding-bottom: 1rem;
-    text-align: center;
-    color: #000000;
-    transform: translateX(-50%);
-    left: 50%;
-    margin: 0px
-  }
+ 
   
   #logo {
     width: 3.5rem;
@@ -193,8 +184,16 @@
     border: solid rgb(194, 194, 194) 1px;
     font-size: 16px;
   }
-
+  textarea {
+    border: solid rgb(194, 194, 194) 1px;
+    font-size: 16px;
+  }
   label {
     font-size: 18px;
   }
+
+  #date {
+    color: #000000;
+  }
+
 
