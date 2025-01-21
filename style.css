@@ -43,18 +43,21 @@ i {
   padding-bottom: 1rem;
   text-align: center;
   color: #000000;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
 }
 .hhs {
   display: flex;
   justify-content: center;
   z-index: 1;
   display: flex;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 #outerdiv {
   position: absolute;
-  gap: 2rem;
+  gap: 1.2rem;
   width: 100%;
   top: 5.7rem; 
   display: flex;
@@ -65,15 +68,15 @@ i {
   left: 50%;
   flex-wrap: wrap;
   overflow-y: auto; 
-  margin-bottom: 4rem;
 }
 
 .hhs, .vvs {
   width: 80%; 
   background: #fff;
-  padding: 0.7rem;
+  
   border-radius: 1.2rem;
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.17);
+  margin: 0px;
 }
 
 
@@ -195,8 +198,8 @@ textarea {
   padding: 0.7rem;
   font-family: sans-serif;
   font-weight: 800;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 0rem;
+  margin-top: 0.5rem;
   font-size: 1.2rem;
 }
 
@@ -277,7 +280,6 @@ label {
 #date-container {
   width: 100%;
 }
-
 
 
 
