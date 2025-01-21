@@ -13,6 +13,27 @@ strong {
     box-sizing: border-box;
 }
 
+.hs {
+    position: absolute;
+    top: 5.1rem; 
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    display: flex;
+    transform: translateX(-50%);
+    left: 50%;
+   
+  }
+  
+  .hs, .vs {
+    width: 80%; 
+    background: #fff;
+    padding: 0.7rem;
+    border-radius: 1.2rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.17);
+    margin: 0px;
+  }
+  
 .vs {
     max-width: 92%;
     width: 87%;
