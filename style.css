@@ -55,7 +55,7 @@ i {
 #outerdiv {
   position: absolute;
   gap: 1rem;
-  width: 90%;
+  width: 100%;
   top: 5.7rem; 
   display: flex;
   justify-content: center;
@@ -225,6 +225,7 @@ label {
   flex-direction: column; 
   align-items: center; 
   text-align: center;
+  margin: 1rem;
 }
 
 .odometer-field label {
@@ -260,7 +261,10 @@ label {
 .date {
   display: flex;
   align-items: flex-start;
-  
+}
+
+#date {
+  background-color: rgb(255, 255, 255);
 }
 
 #date input {
@@ -272,7 +276,14 @@ label {
 
 #date-container {
   width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
 }
+
+
+
+
+
 
 
 
