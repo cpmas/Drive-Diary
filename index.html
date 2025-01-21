@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="global.css">
   <link rel="manifest" href="manifest.json">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 </head>
 <body>
@@ -21,7 +21,9 @@
       <img id="logo" src="logo.png" alt="">
     </header>
 
-    <div class="hs">
+
+    <div id="outerdiv">
+    <div class="hhs">
         <div id="quick-go-container">
           <div id="quick-go-actions">
               <button id="go-button"><i class="fas fa-car"></i>Loading...</button>
@@ -33,36 +35,37 @@
             <button id="end-button" style="display: none;">End Day</button>
       </div>
     </div>
-    
+    <div class="vvs">
+      <!-- Manual Entry Section -->
+      <div id="log-form">
+        <h2>Manual Entry</h2>
+        <form id="daily-log-form">
+          <div id="date-container">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+            <div class="odometer-fields">
+              <div class="odometer-field">
+                <label for="start-odometer">Start </br>Odometer:</label>
+                <input type="number" id="start-odometer" name="start-odometer" required>
+              </div>
+              <div class="odometer-field">
+                <label for="end-odometer">End </br>Odometer:</label>
+                <input type="number" id="end-odometer" name="end-odometer" required>
+              </div>
+            </div>
+            <label for="purpose">Purpose:</label>
+            <textarea id="purpose" name="purpose" placeholder="Describe the activity..." required></textarea>
+            <button id="entry-button" type="submit">Save Log</button>
+            
+        </form>
+      </div>
+    </div>
+
+  </div>
     
     <div class="app--body no-scrollbar">
-      <div class="vs">
-        <!-- Manual Entry Section -->
-        <div id="log-form">
-          <h2>Manual Entry</h2>
-          <form id="daily-log-form">
-            <div id="date-container">
-              <label for="date">Date:</label>
-              <input type="date" id="date" name="date" required>
-            </div>
-              <div class="odometer-fields">
-                <div class="odometer-field">
-                  <label for="start-odometer">Start </br>Odometer:</label>
-                  <input type="number" id="start-odometer" name="start-odometer" required>
-                </div>
-                <div class="odometer-field">
-                  <label for="end-odometer">End </br>Odometer:</label>
-                  <input type="number" id="end-odometer" name="end-odometer" required>
-                </div>
-              </div>
-              <label for="purpose">Purpose:</label>
-              <textarea id="purpose" name="purpose" placeholder="Describe the activity..." required></textarea>
-              <button id="entry-button" type="submit">Save Log</button>
-              
-          </form>
-        </div>
-      </div>
-  
+      
     </div>
     
     <footer class="footer">
