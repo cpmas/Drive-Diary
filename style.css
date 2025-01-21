@@ -45,6 +45,7 @@ i {
   color: #000000;
   margin-bottom: 2rem;
   padding-top: 2rem;
+  margin-bottom: 4rem;
 }
 .hhs {
   display: flex;
@@ -68,6 +69,7 @@ i {
   left: 50%;
   flex-wrap: wrap;
   overflow-y: auto; 
+  margin-bottom: 4rem;
 }
 
 .hhs, .vvs {
@@ -280,6 +282,8 @@ label {
 #date-container {
   width: 100%;
 }
+
+
 
 
 
