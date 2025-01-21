@@ -2,6 +2,13 @@
     --gutter: 20px;
     --c-primary: #000000;
   }
+
+  .app {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    height: 100%; 
+  }
   
   html, body {
     margin: 0;
@@ -120,12 +127,11 @@
     box-sizing: border-box;
     overflow-y: auto; 
     margin: 0;
+    
   }
   
   .app--body no-scrollbar {
     width: 100%;
-    bottom: 0;
-    height: auto;
   }
   
   .app--body > * {
