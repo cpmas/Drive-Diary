@@ -78,7 +78,7 @@ i {
   
   border-radius: 1.2rem;
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.17);
-  margin: 0px;
+ 
 }
 
 
@@ -282,6 +282,10 @@ label {
 #date-container {
   width: 100%;
 }
+
+
+
+
 
 
 
