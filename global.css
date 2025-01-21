@@ -125,7 +125,7 @@
   .app--body no-scrollbar {
     width: 100%;
     bottom: 0;
-    
+    height: auto;
   }
   
   .app--body > * {
