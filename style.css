@@ -43,9 +43,9 @@ i {
   padding-bottom: 1rem;
   text-align: center;
   color: #000000;
+  margin-bottom: 2rem;
 }
 .hhs {
-  
   display: flex;
   justify-content: center;
   z-index: 1;
@@ -54,7 +54,7 @@ i {
 
 #outerdiv {
   position: absolute;
-  gap: 1rem;
+  gap: 1.2rem;
   width: 100%;
   top: 5.7rem; 
   display: flex;
@@ -121,10 +121,10 @@ label {
 
 #quick-go-container {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center horizontally */
-  justify-content: center; /* Center vertically */
-  gap: 1rem; /* Space between the button and input */
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 1rem; 
 }
 
 #quick-go-actions{
@@ -225,7 +225,7 @@ label {
   flex-direction: column; 
   align-items: center; 
   text-align: center;
-  margin: 1rem;
+ 
 }
 
 .odometer-field label {
@@ -276,9 +276,8 @@ label {
 
 #date-container {
   width: 100%;
-  margin-top: 0.8rem;
-  margin-bottom: 1rem;
 }
+
 
 
 
