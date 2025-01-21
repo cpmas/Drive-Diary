@@ -118,7 +118,7 @@
     position: absolute;
     top: 9rem;
     bottom: 0;
-    height: auto;
+    height: calc(100vh - 9rem);
     width: 100%;
     background: #fff;
     border-radius: 1.5rem 1.5rem 0 0;
@@ -138,6 +138,7 @@
     width: 100%; 
     max-width: 100%;
     margin: 0 auto; 
+    height: calc(100vh - 9rem);
   }
   
   .app > * {
